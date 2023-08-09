@@ -19,3 +19,7 @@ policy "restrict-ec2-instance-type" {
   enforcement_level = "hard-mandatory"
 }
 
+policy "limit-proposed-monthly-cost" {
+    source = "./limit-proposed-monthly-cost.sentinel"
+    enforcement_level = "advisory"
+}
