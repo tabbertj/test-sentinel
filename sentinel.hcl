@@ -10,6 +10,10 @@ module "tfconfig-functions" {
   source = "./common-functions/tfconfig-functions/tfconfig-functions.sentinel"
 }
 
+module "tfrun-functions" {
+    source = "./common-functions/tfrun-functions/tfrun-functions.sentinel"
+}
+
 module "aws-functions" {
   source = "./aws-functions/aws-functions.sentinel"
 }
