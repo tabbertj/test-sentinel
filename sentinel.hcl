@@ -25,5 +25,5 @@ policy "restrict-ec2-instance-type" {
 
 policy "limit-proposed-monthly-cost" {
     source = "./limit-proposed-monthly-cost.sentinel"
-    enforcement_level = "advisory"
+    enforcement_level = "soft-mandatory"
 }
